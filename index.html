@@ -1,51 +1,86 @@
 <!DOCTYPE html>
-<html class="html" lang="en-US">
- <head>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="TheAwesomeToastGamer's Official Website.">
+		<meta name="keywords" content="theawesometoastgamer,youube,videos,official,video,game,gaming,funny">
+		<meta name="author" content="MuchoPotato">
+		<title>ToastGaming Website</title>
+		<script>
+			function onload() {
+				// insert stuff here
+			}
+			function goto(x) {
+				window.location = x;
+			}
+			function _(id) {
+				return document.getElementById(id);
+			}	
+		</script>
+		<style>
+			body {
+				background-color: #FF9900;				
+				}
 
-  <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
-</script>
-  
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2015.0.0.309"/>
-  <title>Home</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?4125490759" id="pagesheet"/>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   document.documentElement.className += ' js';
-</script>
-   </head>
- <body>
-
-  <div class="clearfix" id="page"><!-- column -->
-   <div class="clip_frame colelem" id="u99"><!-- image -->
-    <img class="block" id="u99_img" src="images/fcd559ef00f43ff124841231a8695307348f9766.png" alt="" width="502" height="90"/>
-   </div>
-   <div class="verticalspacer"></div>
-  </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script src="scripts/museutils.js?183364071" type="text/javascript"></script>
-  <script src="scripts/jquery.watch.js?71412426" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   $(document).ready(function() { try {
-(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
-for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
-typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
-</script>
-   </body>
+			p {
+				font-family: Comic Sans MS;
+				font-size: 30px;
+				margin: 0px;
+				color: white;
+			}
+			a {
+				position:absolute;
+				font-family: Comic Sans MS;
+				font-size: 30px;
+				color: white;
+			}
+			button {
+				cursor: pointer;
+				background-color: #D6D3C9;
+				border: 0px solid black;
+				color: #000;
+				text-decoration:none;
+				font-family:Comic Sans MS;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				width: 100px;
+				height: 40px;
+			}
+			button:hover {
+				background-color: #E0DDD3;
+			}
+			button:active {
+				background-color: #F1EFE8;
+				
+			}
+			button:focus {
+				outline: 0;
+			}
+		</style>
+	</head>
+	<body onload="onload()">
+	<p id="titleText" style="position:initial;text-align:center;font-size:50px;z-index:2">TheAwesomeToastGamer</p>
+	<div style="position:absolute;left:10%;right:10%;top:0px;bottom:0px;background-color:#FFA410;position:fixed;z-index:-1">
+	</div>
+	<div>
+		<div id="bar" style="position:absolute;left:10%;right:10%;top:110px;height:40px;background-color:#C5C2B5;z-index:2">
+		<button id="homeButton" style="position:absolute;right:calc(100% / 2 + 100px);" onclick="goto('index.html')">Home</button>
+		<button id="videosButton" style="position:absolute;left:calc(100% / 2 - 50px);" onclick="goto('videos.html')">Videos</button>
+		<button id="aboutButton" style="position:absolute;left:calc(100% / 2 + 100px);" onclick="goto('about.html')">About</button>
+		</div>
+		<div id="homePageContent" style="position:absolute;top:155px;width:100%;z-index:2;">
+			<div id="latestVideo">
+			</div>
+			<br>
+			<div id="news">
+				<p style="text-align:center;font-size:40px;">Updates:</p>
+				<p id="newsText" style="font-size:25px;left:160px;position:absolute;right:160px;"> 2016 Best moments should come out today or tommorow!</p>
+			</div>
+		</div>
+	</div>
+	</body>
 </html>
